@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>LeaseLabs</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo pc-only"><img src="img/leaselabs_logo_fullstack_rgb.png" alt="LeaseLabs FULL STACK MARKETING"></h1>
+    <nav id="myTopnav">
+      <li><h1 class="logo sp-only"><img src="img/leaselabs_logo_fullstack_rgb.png" alt="LeaseLabs FULL STACK MARKETING"></h1></li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">OUR WORK</a></li>
+      <li><a href="#">ABOUT US</a></li>
+      <li><a href="#">CONTACT US</a></li>
+      <li class="active"><a href="#">SPECIALS</a></li>
+      <li><a href="javascript:void(0);" class="icon" onclick="showMenu()">&#9776;</a></li>
+    </nav>
+  </header>
+  <main>
+    <div class="sub-nav fl">
+      <div class="sub-nav-item">
+        <h3>SUBNAV</h3>
+        <nav>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sub-nav-item">
+        <h3>RELATED LINKS</h3>
+        <nav>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="main-content fl">
+      <h1>HEADING 1</h1>
+      <p class="subHeading">heading 2</p>
+      <div class="text-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus interdum rhoncus. Curabitur dictum est sit amet turpis auctor facilisis. Phasellus nec suscipit mi. In eget egestas risus. Aliquam erat volutpat. Duis euismod scelerisque orci, nec imperdiet lacus laoreet ac. Integer auctor massa tristique neque tincidunt blandit vel in augue.</p>
+        <p>Morbi vel diam vel arcu tincidunt rhoncus eget id mi. Vivamus sit amet semper nunc. Sed eget massa nec nulla lobortis vulputate sed id felis. Aenean finibus mattis lorem, eget laoreet orci ornare quis. Praesent ac mattis purus, ut porttitor tortor. Cras et condimentum velit. </p>
+        <p>Donec viverra sem eu sapien feugiat accumsan. Vivamus ullamcorper augue tempor sem dapibus pulvinar. Pellentesque ac nunc euismod, lobortis eros vitae, bibendum ex. Aliquam vitae justo turpis. Praesent ex orci, ullamcorper et eros in, euismod gravida tellus. Nullam sed sapien dictum, eleifend mauris et, placerat odio. Aliquam quis sapien nisl.</p>
+      </div>
+      <div class="img-list" id="list-container"></div>
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+  <script>
+    listItems();
+  </script>
+</body>
+</html>
